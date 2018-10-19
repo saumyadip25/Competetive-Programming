@@ -17,9 +17,17 @@ long long fastpow(long long base,long long exp)
 	return (midi*midi)%MOD;
 }
 
+long long C[5005][5005];
 
 int main()
 {
+	for(int i=0; i<=5000; i++)
+		C[i][0] = 1;
 
+	for(int i=1; i<=5000; i++)
+		for(int j=1; j<=i; j++)
+			C[i][j] = (C[i-1][j-1] + C[i-1][j]);
+	
+	
     return 0;
 }

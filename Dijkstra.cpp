@@ -116,7 +116,7 @@ int T,N,M,X,S,K,i,j,k;
 
 
 // https://www.codechef.com/viewsolution/13303482
-
+// https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/
 
 
 
